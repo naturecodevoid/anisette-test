@@ -10,7 +10,6 @@
 		992C896E29A6FD8000FB3501 /* anisette_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C896D29A6FD8000FB3501 /* anisette_testApp.swift */; };
 		992C897229A6FD9700FB3501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992C897129A6FD9700FB3501 /* Assets.xcassets */; };
 		992C897F29A6FEC400FB3501 /* StoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992C897E29A6FEC400FB3501 /* StoreServices.framework */; };
-		992C898229A6FF9C00FB3501 /* crap.m in Sources */ = {isa = PBXBuildFile; fileRef = 992C898129A6FF9C00FB3501 /* crap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +18,6 @@
 		992C897129A6FD9700FB3501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		992C897B29A6FE5800FB3501 /* anisette-test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "anisette-test-Bridging-Header.h"; sourceTree = "<group>"; };
 		992C897E29A6FEC400FB3501 /* StoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StoreServices.framework; sourceTree = SOURCE_ROOT; };
-		992C898029A6FF8B00FB3501 /* crap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crap.h; sourceTree = "<group>"; };
-		992C898129A6FF9C00FB3501 /* crap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = crap.m; sourceTree = "<group>"; };
 		992C898329A71DBB00FB3501 /* StoreServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreServices.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,8 +56,6 @@
 				992C898329A71DBB00FB3501 /* StoreServices.h */,
 				992C897E29A6FEC400FB3501 /* StoreServices.framework */,
 				992C897B29A6FE5800FB3501 /* anisette-test-Bridging-Header.h */,
-				992C898029A6FF8B00FB3501 /* crap.h */,
-				992C898129A6FF9C00FB3501 /* crap.m */,
 				992C897129A6FD9700FB3501 /* Assets.xcassets */,
 			);
 			path = "anisette-test";
@@ -136,7 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				992C898229A6FF9C00FB3501 /* crap.m in Sources */,
 				992C896E29A6FD8000FB3501 /* anisette_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
